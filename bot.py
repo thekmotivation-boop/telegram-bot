@@ -2,7 +2,7 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-BOT_TOKEN = os.getenv("8524619804:AAEbyx32pUDdQeMf-lepQTeJxs3joQ6kD5U")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 CHANNELS = [
     "@fxmepy",
